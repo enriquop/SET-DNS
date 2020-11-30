@@ -1,5 +1,6 @@
 @echo off
-REM SET DNS AYESA
+REM SET DNS
+REM SOLO USO EN ORDENADORES CON IDIOMA ESPAÑOL!
 netsh interface ip show config
 pause > nul
 set /p Adaptador="Nombre de adapador: "
